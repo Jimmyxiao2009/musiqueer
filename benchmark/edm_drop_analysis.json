@@ -1,0 +1,167 @@
+{
+  "file": "edm_drop",
+  "path": "benchmark\\edm_drop.mp3",
+  "duration_s": 106.0,
+  "duration_min": 1.8,
+  "emotion": {
+    "Valence": 0.266,
+    "Arousal": 0.424,
+    "Tension": -0.316,
+    "Complexity": 1.003
+  },
+  "style": "Dance/Funky",
+  "moods": [
+    {
+      "tag": "action",
+      "prob": 0.602
+    },
+    {
+      "tag": "adventure",
+      "prob": 0.578
+    },
+    {
+      "tag": "advertising",
+      "prob": 0.56
+    },
+    {
+      "tag": "ambiental",
+      "prob": 0.445
+    },
+    {
+      "tag": "background",
+      "prob": 0.441
+    }
+  ],
+  "instruments": [
+    {
+      "name": "drums",
+      "prob": 0.195
+    },
+    {
+      "name": "cymbals",
+      "prob": 0.168
+    },
+    {
+      "name": "trombone",
+      "prob": 0.163
+    },
+    {
+      "name": "voice",
+      "prob": 0.156
+    },
+    {
+      "name": "saxophone",
+      "prob": 0.124
+    },
+    {
+      "name": "trumpet",
+      "prob": 0.122
+    },
+    {
+      "name": "ukulele",
+      "prob": 0.116
+    }
+  ],
+  "transitions": [
+    {
+      "time_min": 0.1,
+      "event": "style change: love -> dark",
+      "emotion": {
+        "V": 0.1,
+        "A": 0.44,
+        "T": -0.39,
+        "C": 1.23
+      }
+    },
+    {
+      "time_min": 0.2,
+      "event": "style change: dark -> cool",
+      "emotion": {
+        "V": 0.29,
+        "A": 0.52,
+        "T": -0.3,
+        "C": 0.94
+      }
+    },
+    {
+      "time_min": 0.4,
+      "event": "style change: cool -> travel",
+      "emotion": {
+        "V": 0.35,
+        "A": 0.42,
+        "T": -0.32,
+        "C": 0.74
+      }
+    },
+    {
+      "time_min": 0.5,
+      "event": "style change: travel -> deep",
+      "emotion": {
+        "V": 0.36,
+        "A": 0.37,
+        "T": -0.37,
+        "C": 0.78
+      }
+    },
+    {
+      "time_min": 0.8,
+      "event": "style change: deep -> melodic",
+      "emotion": {
+        "V": 0.27,
+        "A": 0.38,
+        "T": -0.4,
+        "C": 0.79
+      }
+    },
+    {
+      "time_min": 0.9,
+      "event": "style change: melodic -> deep",
+      "emotion": {
+        "V": 0.28,
+        "A": 0.36,
+        "T": -0.33,
+        "C": 1.37
+      }
+    },
+    {
+      "time_min": 1.1,
+      "event": "style change: deep -> cool",
+      "emotion": {
+        "V": 0.34,
+        "A": 0.43,
+        "T": -0.33,
+        "C": 0.95
+      }
+    },
+    {
+      "time_min": 1.2,
+      "event": "style change: cool -> dark",
+      "emotion": {
+        "V": 0.33,
+        "A": 0.46,
+        "T": -0.22,
+        "C": 0.57
+      }
+    },
+    {
+      "time_min": 1.4,
+      "event": "style change: dark -> cool",
+      "emotion": {
+        "V": 0.3,
+        "A": 0.36,
+        "T": -0.43,
+        "C": 0.67
+      }
+    },
+    {
+      "time_min": 1.5,
+      "event": "style change: cool -> upbeat",
+      "emotion": {
+        "V": 0.13,
+        "A": 0.44,
+        "T": -0.3,
+        "C": 1.27
+      }
+    }
+  ]
+}

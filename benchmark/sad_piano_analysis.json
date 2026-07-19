@@ -1,0 +1,197 @@
+{
+  "file": "sad_piano",
+  "path": "benchmark\\sad_piano.mp3",
+  "duration_s": 166.4,
+  "duration_min": 2.8,
+  "emotion": {
+    "Valence": -0.065,
+    "Arousal": 0.012,
+    "Tension": 0.34,
+    "Complexity": 0.38
+  },
+  "style": "Classical/Piano",
+  "moods": [
+    {
+      "tag": "action",
+      "prob": 0.724
+    },
+    {
+      "tag": "adventure",
+      "prob": 0.694
+    },
+    {
+      "tag": "advertising",
+      "prob": 0.582
+    },
+    {
+      "tag": "ambiental",
+      "prob": 0.579
+    },
+    {
+      "tag": "background",
+      "prob": 0.548
+    }
+  ],
+  "instruments": [
+    {
+      "name": "piano",
+      "prob": 0.59
+    },
+    {
+      "name": "mallet_percussion",
+      "prob": 0.107
+    }
+  ],
+  "transitions": [
+    {
+      "time_min": 0.1,
+      "event": "style change: relaxing -> sad",
+      "emotion": {
+        "V": 0.02,
+        "A": -0.1,
+        "T": 0.27,
+        "C": 0.5
+      }
+    },
+    {
+      "time_min": 0.2,
+      "event": "style change: sad -> romantic",
+      "emotion": {
+        "V": -0.03,
+        "A": -0.12,
+        "T": -0.11,
+        "C": 0.15
+      }
+    },
+    {
+      "time_min": 0.4,
+      "event": "style change: romantic -> relaxing",
+      "emotion": {
+        "V": -0.13,
+        "A": 0.08,
+        "T": 0.3,
+        "C": -0.08
+      }
+    },
+    {
+      "time_min": 0.5,
+      "event": "style change: relaxing -> inspiring",
+      "emotion": {
+        "V": -0.26,
+        "A": 0.04,
+        "T": 0.31,
+        "C": 0.19
+      }
+    },
+    {
+      "time_min": 0.8,
+      "event": "style change: inspiring -> hopeful",
+      "emotion": {
+        "V": -0.14,
+        "A": -0.03,
+        "T": 0.01,
+        "C": 0.34
+      }
+    },
+    {
+      "time_min": 0.9,
+      "event": "style change: hopeful -> soft",
+      "emotion": {
+        "V": 0.09,
+        "A": -0.0,
+        "T": 0.31,
+        "C": 0.01
+      }
+    },
+    {
+      "time_min": 1.2,
+      "event": "style change: soft -> inspiring",
+      "emotion": {
+        "V": -0.16,
+        "A": 0.08,
+        "T": 0.3,
+        "C": 0.34
+      }
+    },
+    {
+      "time_min": 1.4,
+      "event": "style change: inspiring -> melancholic",
+      "emotion": {
+        "V": -0.09,
+        "A": 0.09,
+        "T": -0.01,
+        "C": 0.77
+      }
+    },
+    {
+      "time_min": 1.5,
+      "event": "style change: melancholic -> soft",
+      "emotion": {
+        "V": -0.13,
+        "A": -0.0,
+        "T": 0.88,
+        "C": 0.3
+      }
+    },
+    {
+      "time_min": 1.6,
+      "event": "style change: soft -> christmas",
+      "emotion": {
+        "V": 0.04,
+        "A": -0.01,
+        "T": 0.93,
+        "C": 0.42
+      }
+    },
+    {
+      "time_min": 1.8,
+      "event": "style change: christmas -> melodic",
+      "emotion": {
+        "V": 0.09,
+        "A": 0.1,
+        "T": 0.44,
+        "C": 0.46
+      }
+    },
+    {
+      "time_min": 2.0,
+      "event": "style change: melodic -> sad",
+      "emotion": {
+        "V": 0.09,
+        "A": 0.07,
+        "T": 0.25,
+        "C": 0.54
+      }
+    },
+    {
+      "time_min": 2.1,
+      "event": "style change: sad -> christmas",
+      "emotion": {
+        "V": -0.17,
+        "A": 0.03,
+        "T": 0.53,
+        "C": 0.35
+      }
+    },
+    {
+      "time_min": 2.2,
+      "event": "style change: christmas -> meditative",
+      "emotion": {
+        "V": -0.11,
+        "A": -0.02,
+        "T": -0.1,
+        "C": 0.93
+      }
+    },
+    {
+      "time_min": 2.5,
+      "event": "style change: meditative -> relaxing",
+      "emotion": {
+        "V": -0.09,
+        "A": -0.02,
+        "T": 0.82,
+        "C": 0.54
+      }
+    }
+  ]
+}

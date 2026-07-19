@@ -1,0 +1,345 @@
+{
+  "file": "jazz_swing",
+  "path": "benchmark\\jazz_swing.mp3",
+  "duration_s": 477.8,
+  "duration_min": 8.0,
+  "emotion": {
+    "Valence": 0.144,
+    "Arousal": 0.359,
+    "Tension": 0.17,
+    "Complexity": 1.412
+  },
+  "style": "Dance/Funky",
+  "moods": [
+    {
+      "tag": "action",
+      "prob": 0.934
+    },
+    {
+      "tag": "adventure",
+      "prob": 0.917
+    },
+    {
+      "tag": "advertising",
+      "prob": 0.785
+    },
+    {
+      "tag": "ambiental",
+      "prob": 0.683
+    },
+    {
+      "tag": "background",
+      "prob": 0.514
+    }
+  ],
+  "instruments": [
+    {
+      "name": "drums",
+      "prob": 0.636
+    },
+    {
+      "name": "cymbals",
+      "prob": 0.422
+    },
+    {
+      "name": "synthesizer",
+      "prob": 0.193
+    },
+    {
+      "name": "voice",
+      "prob": 0.12
+    }
+  ],
+  "transitions": [
+    {
+      "time_min": 0.2,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.11,
+        "A": 0.32,
+        "T": -0.03,
+        "C": 1.33
+      }
+    },
+    {
+      "time_min": 0.4,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.05,
+        "A": 0.24,
+        "T": -0.07,
+        "C": 1.45
+      }
+    },
+    {
+      "time_min": 0.8,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.14,
+        "A": 0.36,
+        "T": 0.28,
+        "C": 1.19
+      }
+    },
+    {
+      "time_min": 0.9,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.06,
+        "A": 0.27,
+        "T": 0.06,
+        "C": 1.69
+      }
+    },
+    {
+      "time_min": 1.2,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.2,
+        "A": 0.43,
+        "T": 0.48,
+        "C": 1.46
+      }
+    },
+    {
+      "time_min": 1.6,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.13,
+        "A": 0.4,
+        "T": 0.06,
+        "C": 1.41
+      }
+    },
+    {
+      "time_min": 2.1,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.14,
+        "A": 0.31,
+        "T": 0.19,
+        "C": 1.33
+      }
+    },
+    {
+      "time_min": 2.4,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.09,
+        "A": 0.35,
+        "T": 0.18,
+        "C": 1.43
+      }
+    },
+    {
+      "time_min": 2.8,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.15,
+        "A": 0.32,
+        "T": 0.06,
+        "C": 1.6
+      }
+    },
+    {
+      "time_min": 3.5,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.15,
+        "A": 0.34,
+        "T": 0.13,
+        "C": 1.34
+      }
+    },
+    {
+      "time_min": 4.0,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.14,
+        "A": 0.39,
+        "T": 0.09,
+        "C": 1.26
+      }
+    },
+    {
+      "time_min": 4.2,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.13,
+        "A": 0.33,
+        "T": 0.15,
+        "C": 1.37
+      }
+    },
+    {
+      "time_min": 4.4,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.21,
+        "A": 0.43,
+        "T": 0.04,
+        "C": 1.29
+      }
+    },
+    {
+      "time_min": 4.6,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.13,
+        "A": 0.36,
+        "T": 0.0,
+        "C": 1.51
+      }
+    },
+    {
+      "time_min": 5.1,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.12,
+        "A": 0.3,
+        "T": 0.11,
+        "C": 1.36
+      }
+    },
+    {
+      "time_min": 5.2,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.13,
+        "A": 0.34,
+        "T": 0.1,
+        "C": 1.6
+      }
+    },
+    {
+      "time_min": 5.4,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.19,
+        "A": 0.48,
+        "T": 0.69,
+        "C": 1.62
+      }
+    },
+    {
+      "time_min": 5.8,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.15,
+        "A": 0.34,
+        "T": -0.07,
+        "C": 1.41
+      }
+    },
+    {
+      "time_min": 5.9,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.06,
+        "A": 0.35,
+        "T": 0.04,
+        "C": 1.41
+      }
+    },
+    {
+      "time_min": 6.0,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.11,
+        "A": 0.35,
+        "T": -0.07,
+        "C": 1.49
+      }
+    },
+    {
+      "time_min": 6.2,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.13,
+        "A": 0.37,
+        "T": 0.14,
+        "C": 1.26
+      }
+    },
+    {
+      "time_min": 6.6,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.11,
+        "A": 0.32,
+        "T": -0.18,
+        "C": 1.35
+      }
+    },
+    {
+      "time_min": 6.8,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.11,
+        "A": 0.33,
+        "T": 0.1,
+        "C": 1.42
+      }
+    },
+    {
+      "time_min": 6.9,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.13,
+        "A": 0.28,
+        "T": 0.07,
+        "C": 1.27
+      }
+    },
+    {
+      "time_min": 7.0,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.15,
+        "A": 0.42,
+        "T": 0.64,
+        "C": 1.7
+      }
+    },
+    {
+      "time_min": 7.2,
+      "event": "style change: sport -> deep",
+      "emotion": {
+        "V": 0.18,
+        "A": 0.36,
+        "T": 0.14,
+        "C": 1.47
+      }
+    },
+    {
+      "time_min": 7.4,
+      "event": "style change: deep -> sport",
+      "emotion": {
+        "V": 0.14,
+        "A": 0.5,
+        "T": 1.07,
+        "C": 1.54
+      }
+    },
+    {
+      "time_min": 7.5,
+      "event": "style change: sport -> slow",
+      "emotion": {
+        "V": 0.16,
+        "A": 0.47,
+        "T": 0.33,
+        "C": 1.12
+      }
+    },
+    {
+      "time_min": 7.6,
+      "event": "style change: slow -> deep",
+      "emotion": {
+        "V": 0.25,
+        "A": 0.36,
+        "T": -0.2,
+        "C": 0.82
+      }
+    }
+  ]
+}

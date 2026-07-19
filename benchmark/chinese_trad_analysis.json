@@ -1,0 +1,37 @@
+{
+  "file": "chinese_trad",
+  "path": "benchmark\\chinese_trad.mp3",
+  "duration_s": 21.2,
+  "duration_min": 0.4,
+  "emotion": {
+    "Valence": 0.084,
+    "Arousal": -0.101,
+    "Tension": -0.631,
+    "Complexity": -3.15
+  },
+  "style": "Melancholic/Sad",
+  "moods": [
+    {
+      "tag": "action",
+      "prob": 1.0
+    },
+    {
+      "tag": "adventure",
+      "prob": 1.0
+    },
+    {
+      "tag": "advertising",
+      "prob": 0.381
+    },
+    {
+      "tag": "ambiental",
+      "prob": 0.0
+    },
+    {
+      "tag": "background",
+      "prob": 0.0
+    }
+  ],
+  "instruments": [],
+  "transitions": []
+}

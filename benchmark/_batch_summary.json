@@ -1,0 +1,3884 @@
+[
+  {
+    "file": "chinese_trad",
+    "path": "benchmark\\chinese_trad.mp3",
+    "duration_s": 21.2,
+    "duration_min": 0.4,
+    "emotion": {
+      "Valence": 0.084,
+      "Arousal": -0.101,
+      "Tension": -0.631,
+      "Complexity": -3.15
+    },
+    "style": "Melancholic/Sad",
+    "moods": [
+      {
+        "tag": "action",
+        "prob": 1.0
+      },
+      {
+        "tag": "adventure",
+        "prob": 1.0
+      },
+      {
+        "tag": "advertising",
+        "prob": 0.381
+      },
+      {
+        "tag": "ambiental",
+        "prob": 0.0
+      },
+      {
+        "tag": "background",
+        "prob": 0.0
+      }
+    ],
+    "instruments": [],
+    "transitions": []
+  },
+  {
+    "file": "colosseum_epic",
+    "path": "benchmark\\colosseum_epic.mp3",
+    "duration_s": 474.2,
+    "duration_min": 7.9,
+    "emotion": {
+      "Valence": 0.31,
+      "Arousal": 0.394,
+      "Tension": -0.21,
+      "Complexity": 0.683
+    },
+    "style": "Epic/Cinematic",
+    "moods": [
+      {
+        "tag": "action",
+        "prob": 0.759
+      },
+      {
+        "tag": "adventure",
+        "prob": 0.644
+      },
+      {
+        "tag": "advertising",
+        "prob": 0.488
+      },
+      {
+        "tag": "ambiental",
+        "prob": 0.476
+      },
+      {
+        "tag": "background",
+        "prob": 0.392
+      }
+    ],
+    "instruments": [
+      {
+        "name": "voice",
+        "prob": 0.161
+      },
+      {
+        "name": "trumpet",
+        "prob": 0.136
+      },
+      {
+        "name": "saxophone",
+        "prob": 0.126
+      },
+      {
+        "name": "cymbals",
+        "prob": 0.11
+      },
+      {
+        "name": "trombone",
+        "prob": 0.103
+      }
+    ],
+    "transitions": [
+      {
+        "time_min": 0.1,
+        "event": "style change: cool -> romantic",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.42,
+          "T": -0.1,
+          "C": 0.77
+        }
+      },
+      {
+        "time_min": 0.2,
+        "event": "style change: romantic -> trailer",
+        "emotion": {
+          "V": 0.35,
+          "A": 0.57,
+          "T": 0.14,
+          "C": 2.79
+        }
+      },
+      {
+        "time_min": 0.4,
+        "event": "style change: trailer -> epic",
+        "emotion": {
+          "V": 0.1,
+          "A": 0.53,
+          "T": -0.07,
+          "C": 2.55
+        }
+      },
+      {
+        "time_min": 0.5,
+        "event": "style change: epic -> action",
+        "emotion": {
+          "V": -0.11,
+          "A": 0.53,
+          "T": 0.18,
+          "C": 1.45
+        }
+      },
+      {
+        "time_min": 0.6,
+        "event": "style change: action -> epic",
+        "emotion": {
+          "V": 0.26,
+          "A": 0.26,
+          "T": -0.17,
+          "C": 0.36
+        }
+      },
+      {
+        "time_min": 0.8,
+        "event": "style change: epic -> film",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.34,
+          "T": -0.18,
+          "C": 0.45
+        }
+      },
+      {
+        "time_min": 0.9,
+        "event": "style change: film -> deep",
+        "emotion": {
+          "V": 0.32,
+          "A": 0.38,
+          "T": -0.29,
+          "C": 0.4
+        }
+      },
+      {
+        "time_min": 1.0,
+        "event": "style change: deep -> epic",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.41,
+          "T": -0.32,
+          "C": 0.43
+        }
+      },
+      {
+        "time_min": 1.1,
+        "event": "style change: epic -> action",
+        "emotion": {
+          "V": 0.37,
+          "A": 0.32,
+          "T": -0.25,
+          "C": 0.44
+        }
+      },
+      {
+        "time_min": 1.4,
+        "event": "style change: action -> film",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.44,
+          "T": -0.16,
+          "C": 0.51
+        }
+      },
+      {
+        "time_min": 1.5,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.39,
+          "T": -0.28,
+          "C": 0.56
+        }
+      },
+      {
+        "time_min": 1.6,
+        "event": "style change: epic -> drama",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.39,
+          "T": -0.37,
+          "C": 0.41
+        }
+      },
+      {
+        "time_min": 1.8,
+        "event": "style change: drama -> epic",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.37,
+          "T": -0.22,
+          "C": 0.43
+        }
+      },
+      {
+        "time_min": 2.0,
+        "event": "style change: epic -> deep",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.38,
+          "T": -0.29,
+          "C": 0.41
+        }
+      },
+      {
+        "time_min": 2.1,
+        "event": "style change: deep -> epic",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.37,
+          "T": -0.26,
+          "C": 0.32
+        }
+      },
+      {
+        "time_min": 2.4,
+        "event": "style change: epic -> action",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.38,
+          "T": -0.24,
+          "C": 0.44
+        }
+      },
+      {
+        "time_min": 2.5,
+        "event": "style change: action -> epic",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.4,
+          "T": -0.2,
+          "C": 0.45
+        }
+      },
+      {
+        "time_min": 3.1,
+        "event": "style change: epic -> film",
+        "emotion": {
+          "V": 0.37,
+          "A": 0.44,
+          "T": -0.38,
+          "C": 0.88
+        }
+      },
+      {
+        "time_min": 3.4,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.3,
+          "T": -0.13,
+          "C": 0.46
+        }
+      },
+      {
+        "time_min": 3.5,
+        "event": "style change: epic -> movie",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.31,
+          "T": -0.14,
+          "C": 0.35
+        }
+      },
+      {
+        "time_min": 3.6,
+        "event": "style change: movie -> epic",
+        "emotion": {
+          "V": 0.31,
+          "A": 0.38,
+          "T": -0.28,
+          "C": 0.74
+        }
+      },
+      {
+        "time_min": 3.8,
+        "event": "style change: epic -> film",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.37,
+          "T": -0.28,
+          "C": 0.84
+        }
+      },
+      {
+        "time_min": 4.0,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.36,
+          "T": -0.29,
+          "C": 0.54
+        }
+      },
+      {
+        "time_min": 4.1,
+        "event": "style change: epic -> film",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.44,
+          "T": -0.31,
+          "C": 0.63
+        }
+      },
+      {
+        "time_min": 4.2,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.32,
+          "A": 0.37,
+          "T": -0.37,
+          "C": 0.62
+        }
+      },
+      {
+        "time_min": 4.4,
+        "event": "style change: epic -> film",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.37,
+          "T": -0.38,
+          "C": 0.83
+        }
+      },
+      {
+        "time_min": 4.5,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.4,
+          "T": -0.37,
+          "C": 0.6
+        }
+      },
+      {
+        "time_min": 4.6,
+        "event": "style change: epic -> film",
+        "emotion": {
+          "V": 0.35,
+          "A": 0.44,
+          "T": -0.18,
+          "C": 0.58
+        }
+      },
+      {
+        "time_min": 5.0,
+        "event": "style change: film -> upbeat",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.37,
+          "T": -0.32,
+          "C": 0.68
+        }
+      },
+      {
+        "time_min": 5.1,
+        "event": "style change: upbeat -> film",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.35,
+          "T": -0.13,
+          "C": 0.32
+        }
+      },
+      {
+        "time_min": 5.2,
+        "event": "style change: film -> cool",
+        "emotion": {
+          "V": 0.32,
+          "A": 0.43,
+          "T": -0.23,
+          "C": 0.66
+        }
+      },
+      {
+        "time_min": 5.4,
+        "event": "style change: cool -> sad",
+        "emotion": {
+          "V": 0.35,
+          "A": 0.46,
+          "T": -0.17,
+          "C": 0.89
+        }
+      },
+      {
+        "time_min": 5.5,
+        "event": "style change: sad -> drama",
+        "emotion": {
+          "V": 0.31,
+          "A": 0.38,
+          "T": -0.27,
+          "C": 0.53
+        }
+      },
+      {
+        "time_min": 5.6,
+        "event": "style change: drama -> film",
+        "emotion": {
+          "V": 0.4,
+          "A": 0.35,
+          "T": -0.25,
+          "C": 0.39
+        }
+      },
+      {
+        "time_min": 6.5,
+        "event": "style change: film -> dark",
+        "emotion": {
+          "V": 0.35,
+          "A": 0.4,
+          "T": -0.29,
+          "C": 0.65
+        }
+      },
+      {
+        "time_min": 6.6,
+        "event": "style change: dark -> drama",
+        "emotion": {
+          "V": 0.41,
+          "A": 0.46,
+          "T": -0.25,
+          "C": 0.7
+        }
+      },
+      {
+        "time_min": 6.9,
+        "event": "style change: drama -> film",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.31,
+          "T": -0.22,
+          "C": 0.41
+        }
+      },
+      {
+        "time_min": 7.0,
+        "event": "style change: film -> drama",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.42,
+          "T": -0.29,
+          "C": 0.43
+        }
+      },
+      {
+        "time_min": 7.1,
+        "event": "style change: drama -> relaxing",
+        "emotion": {
+          "V": 0.31,
+          "A": 0.32,
+          "T": -0.11,
+          "C": 0.49
+        }
+      },
+      {
+        "time_min": 7.2,
+        "event": "style change: relaxing -> film",
+        "emotion": {
+          "V": 0.31,
+          "A": 0.55,
+          "T": -0.14,
+          "C": 0.92
+        }
+      },
+      {
+        "time_min": 7.5,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.24,
+          "A": 0.42,
+          "T": 0.02,
+          "C": 1.0
+        }
+      },
+      {
+        "time_min": 7.6,
+        "event": "style change: epic -> energetic",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.55,
+          "T": 0.32,
+          "C": 2.11
+        }
+      }
+    ]
+  },
+  {
+    "file": "edm_drop",
+    "path": "benchmark\\edm_drop.mp3",
+    "duration_s": 106.0,
+    "duration_min": 1.8,
+    "emotion": {
+      "Valence": 0.266,
+      "Arousal": 0.424,
+      "Tension": -0.316,
+      "Complexity": 1.003
+    },
+    "style": "Dance/Funky",
+    "moods": [
+      {
+        "tag": "action",
+        "prob": 0.602
+      },
+      {
+        "tag": "adventure",
+        "prob": 0.578
+      },
+      {
+        "tag": "advertising",
+        "prob": 0.56
+      },
+      {
+        "tag": "ambiental",
+        "prob": 0.445
+      },
+      {
+        "tag": "background",
+        "prob": 0.441
+      }
+    ],
+    "instruments": [
+      {
+        "name": "drums",
+        "prob": 0.195
+      },
+      {
+        "name": "cymbals",
+        "prob": 0.168
+      },
+      {
+        "name": "trombone",
+        "prob": 0.163
+      },
+      {
+        "name": "voice",
+        "prob": 0.156
+      },
+      {
+        "name": "saxophone",
+        "prob": 0.124
+      },
+      {
+        "name": "trumpet",
+        "prob": 0.122
+      },
+      {
+        "name": "ukulele",
+        "prob": 0.116
+      }
+    ],
+    "transitions": [
+      {
+        "time_min": 0.1,
+        "event": "style change: love -> dark",
+        "emotion": {
+          "V": 0.1,
+          "A": 0.44,
+          "T": -0.39,
+          "C": 1.23
+        }
+      },
+      {
+        "time_min": 0.2,
+        "event": "style change: dark -> cool",
+        "emotion": {
+          "V": 0.29,
+          "A": 0.52,
+          "T": -0.3,
+          "C": 0.94
+        }
+      },
+      {
+        "time_min": 0.4,
+        "event": "style change: cool -> travel",
+        "emotion": {
+          "V": 0.35,
+          "A": 0.42,
+          "T": -0.32,
+          "C": 0.74
+        }
+      },
+      {
+        "time_min": 0.5,
+        "event": "style change: travel -> deep",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.37,
+          "T": -0.37,
+          "C": 0.78
+        }
+      },
+      {
+        "time_min": 0.8,
+        "event": "style change: deep -> melodic",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.38,
+          "T": -0.4,
+          "C": 0.79
+        }
+      },
+      {
+        "time_min": 0.9,
+        "event": "style change: melodic -> deep",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.36,
+          "T": -0.33,
+          "C": 1.37
+        }
+      },
+      {
+        "time_min": 1.1,
+        "event": "style change: deep -> cool",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.43,
+          "T": -0.33,
+          "C": 0.95
+        }
+      },
+      {
+        "time_min": 1.2,
+        "event": "style change: cool -> dark",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.46,
+          "T": -0.22,
+          "C": 0.57
+        }
+      },
+      {
+        "time_min": 1.4,
+        "event": "style change: dark -> cool",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.36,
+          "T": -0.43,
+          "C": 0.67
+        }
+      },
+      {
+        "time_min": 1.5,
+        "event": "style change: cool -> upbeat",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.44,
+          "T": -0.3,
+          "C": 1.27
+        }
+      }
+    ]
+  },
+  {
+    "file": "jazz_swing",
+    "path": "benchmark\\jazz_swing.mp3",
+    "duration_s": 477.8,
+    "duration_min": 8.0,
+    "emotion": {
+      "Valence": 0.144,
+      "Arousal": 0.359,
+      "Tension": 0.17,
+      "Complexity": 1.412
+    },
+    "style": "Dance/Funky",
+    "moods": [
+      {
+        "tag": "action",
+        "prob": 0.934
+      },
+      {
+        "tag": "adventure",
+        "prob": 0.917
+      },
+      {
+        "tag": "advertising",
+        "prob": 0.785
+      },
+      {
+        "tag": "ambiental",
+        "prob": 0.683
+      },
+      {
+        "tag": "background",
+        "prob": 0.514
+      }
+    ],
+    "instruments": [
+      {
+        "name": "drums",
+        "prob": 0.636
+      },
+      {
+        "name": "cymbals",
+        "prob": 0.422
+      },
+      {
+        "name": "synthesizer",
+        "prob": 0.193
+      },
+      {
+        "name": "voice",
+        "prob": 0.12
+      }
+    ],
+    "transitions": [
+      {
+        "time_min": 0.2,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.32,
+          "T": -0.03,
+          "C": 1.33
+        }
+      },
+      {
+        "time_min": 0.4,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.05,
+          "A": 0.24,
+          "T": -0.07,
+          "C": 1.45
+        }
+      },
+      {
+        "time_min": 0.8,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.36,
+          "T": 0.28,
+          "C": 1.19
+        }
+      },
+      {
+        "time_min": 0.9,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.06,
+          "A": 0.27,
+          "T": 0.06,
+          "C": 1.69
+        }
+      },
+      {
+        "time_min": 1.2,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.2,
+          "A": 0.43,
+          "T": 0.48,
+          "C": 1.46
+        }
+      },
+      {
+        "time_min": 1.6,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.4,
+          "T": 0.06,
+          "C": 1.41
+        }
+      },
+      {
+        "time_min": 2.1,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.31,
+          "T": 0.19,
+          "C": 1.33
+        }
+      },
+      {
+        "time_min": 2.4,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.09,
+          "A": 0.35,
+          "T": 0.18,
+          "C": 1.43
+        }
+      },
+      {
+        "time_min": 2.8,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.32,
+          "T": 0.06,
+          "C": 1.6
+        }
+      },
+      {
+        "time_min": 3.5,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.34,
+          "T": 0.13,
+          "C": 1.34
+        }
+      },
+      {
+        "time_min": 4.0,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.39,
+          "T": 0.09,
+          "C": 1.26
+        }
+      },
+      {
+        "time_min": 4.2,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.33,
+          "T": 0.15,
+          "C": 1.37
+        }
+      },
+      {
+        "time_min": 4.4,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.21,
+          "A": 0.43,
+          "T": 0.04,
+          "C": 1.29
+        }
+      },
+      {
+        "time_min": 4.6,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.36,
+          "T": 0.0,
+          "C": 1.51
+        }
+      },
+      {
+        "time_min": 5.1,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.3,
+          "T": 0.11,
+          "C": 1.36
+        }
+      },
+      {
+        "time_min": 5.2,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.34,
+          "T": 0.1,
+          "C": 1.6
+        }
+      },
+      {
+        "time_min": 5.4,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.19,
+          "A": 0.48,
+          "T": 0.69,
+          "C": 1.62
+        }
+      },
+      {
+        "time_min": 5.8,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.34,
+          "T": -0.07,
+          "C": 1.41
+        }
+      },
+      {
+        "time_min": 5.9,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.06,
+          "A": 0.35,
+          "T": 0.04,
+          "C": 1.41
+        }
+      },
+      {
+        "time_min": 6.0,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.35,
+          "T": -0.07,
+          "C": 1.49
+        }
+      },
+      {
+        "time_min": 6.2,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.37,
+          "T": 0.14,
+          "C": 1.26
+        }
+      },
+      {
+        "time_min": 6.6,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.32,
+          "T": -0.18,
+          "C": 1.35
+        }
+      },
+      {
+        "time_min": 6.8,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.33,
+          "T": 0.1,
+          "C": 1.42
+        }
+      },
+      {
+        "time_min": 6.9,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.28,
+          "T": 0.07,
+          "C": 1.27
+        }
+      },
+      {
+        "time_min": 7.0,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.42,
+          "T": 0.64,
+          "C": 1.7
+        }
+      },
+      {
+        "time_min": 7.2,
+        "event": "style change: sport -> deep",
+        "emotion": {
+          "V": 0.18,
+          "A": 0.36,
+          "T": 0.14,
+          "C": 1.47
+        }
+      },
+      {
+        "time_min": 7.4,
+        "event": "style change: deep -> sport",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.5,
+          "T": 1.07,
+          "C": 1.54
+        }
+      },
+      {
+        "time_min": 7.5,
+        "event": "style change: sport -> slow",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.47,
+          "T": 0.33,
+          "C": 1.12
+        }
+      },
+      {
+        "time_min": 7.6,
+        "event": "style change: slow -> deep",
+        "emotion": {
+          "V": 0.25,
+          "A": 0.36,
+          "T": -0.2,
+          "C": 0.82
+        }
+      }
+    ]
+  },
+  {
+    "file": "rock_electric",
+    "path": "benchmark\\rock_electric.mp3",
+    "duration_s": 212.2,
+    "duration_min": 3.5,
+    "emotion": {
+      "Valence": 0.142,
+      "Arousal": 0.493,
+      "Tension": 0.745,
+      "Complexity": 1.372
+    },
+    "style": "Dance/Funky",
+    "moods": [
+      {
+        "tag": "action",
+        "prob": 0.7
+      },
+      {
+        "tag": "adventure",
+        "prob": 0.681
+      },
+      {
+        "tag": "advertising",
+        "prob": 0.654
+      },
+      {
+        "tag": "ambiental",
+        "prob": 0.563
+      },
+      {
+        "tag": "background",
+        "prob": 0.443
+      }
+    ],
+    "instruments": [
+      {
+        "name": "voice",
+        "prob": 0.313
+      },
+      {
+        "name": "cymbals",
+        "prob": 0.269
+      },
+      {
+        "name": "drums",
+        "prob": 0.141
+      },
+      {
+        "name": "saxophone",
+        "prob": 0.131
+      }
+    ],
+    "transitions": [
+      {
+        "time_min": 0.1,
+        "event": "style change: sport -> upbeat",
+        "emotion": {
+          "V": 0.1,
+          "A": 0.51,
+          "T": 0.58,
+          "C": 1.48
+        }
+      },
+      {
+        "time_min": 0.2,
+        "event": "style change: upbeat -> love",
+        "emotion": {
+          "V": 0.18,
+          "A": 0.53,
+          "T": 0.55,
+          "C": 1.14
+        }
+      },
+      {
+        "time_min": 0.5,
+        "event": "style change: love -> happy",
+        "emotion": {
+          "V": 0.18,
+          "A": 0.42,
+          "T": 0.72,
+          "C": 1.01
+        }
+      },
+      {
+        "time_min": 0.6,
+        "event": "style change: happy -> love",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.49,
+          "T": 0.97,
+          "C": 1.27
+        }
+      },
+      {
+        "time_min": 0.8,
+        "event": "style change: love -> motivational",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.54,
+          "T": 1.01,
+          "C": 1.25
+        }
+      },
+      {
+        "time_min": 0.9,
+        "event": "style change: motivational -> love",
+        "emotion": {
+          "V": 0.09,
+          "A": 0.59,
+          "T": 1.08,
+          "C": 1.4
+        }
+      },
+      {
+        "time_min": 1.1,
+        "event": "style change: love -> energetic",
+        "emotion": {
+          "V": 0.1,
+          "A": 0.54,
+          "T": 1.08,
+          "C": 1.15
+        }
+      },
+      {
+        "time_min": 1.2,
+        "event": "style change: energetic -> love",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.52,
+          "T": 0.87,
+          "C": 1.18
+        }
+      },
+      {
+        "time_min": 1.4,
+        "event": "style change: love -> upbeat",
+        "emotion": {
+          "V": 0.2,
+          "A": 0.47,
+          "T": 0.6,
+          "C": 1.36
+        }
+      },
+      {
+        "time_min": 1.5,
+        "event": "style change: upbeat -> christmas",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.56,
+          "T": 1.03,
+          "C": 1.29
+        }
+      },
+      {
+        "time_min": 1.6,
+        "event": "style change: christmas -> positive",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.56,
+          "T": 0.8,
+          "C": 1.24
+        }
+      },
+      {
+        "time_min": 1.9,
+        "event": "style change: positive -> upbeat",
+        "emotion": {
+          "V": 0.09,
+          "A": 0.51,
+          "T": 0.55,
+          "C": 1.23
+        }
+      },
+      {
+        "time_min": 2.0,
+        "event": "style change: upbeat -> party",
+        "emotion": {
+          "V": 0.07,
+          "A": 0.4,
+          "T": -0.52,
+          "C": 0.84
+        }
+      },
+      {
+        "time_min": 2.1,
+        "event": "style change: party -> fast",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.39,
+          "T": 0.13,
+          "C": 1.59
+        }
+      },
+      {
+        "time_min": 2.2,
+        "event": "style change: fast -> love",
+        "emotion": {
+          "V": 0.04,
+          "A": 0.29,
+          "T": 0.61,
+          "C": 1.51
+        }
+      },
+      {
+        "time_min": 2.4,
+        "event": "style change: love -> summer",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.3,
+          "T": 0.43,
+          "C": 1.64
+        }
+      },
+      {
+        "time_min": 2.5,
+        "event": "style change: summer -> happy",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.54,
+          "T": 0.78,
+          "C": 1.36
+        }
+      },
+      {
+        "time_min": 2.6,
+        "event": "style change: happy -> upbeat",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.53,
+          "T": 0.78,
+          "C": 1.53
+        }
+      },
+      {
+        "time_min": 2.8,
+        "event": "style change: upbeat -> summer",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.5,
+          "T": 0.89,
+          "C": 1.52
+        }
+      },
+      {
+        "time_min": 2.9,
+        "event": "style change: summer -> upbeat",
+        "emotion": {
+          "V": 0.18,
+          "A": 0.53,
+          "T": 0.87,
+          "C": 1.52
+        }
+      },
+      {
+        "time_min": 3.0,
+        "event": "style change: upbeat -> motivational",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.52,
+          "T": 0.96,
+          "C": 1.5
+        }
+      },
+      {
+        "time_min": 3.1,
+        "event": "style change: motivational -> upbeat",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.54,
+          "T": 0.77,
+          "C": 1.56
+        }
+      },
+      {
+        "time_min": 3.2,
+        "event": "style change: upbeat -> summer",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.55,
+          "T": 0.62,
+          "C": 1.56
+        }
+      }
+    ]
+  },
+  {
+    "file": "sad_piano",
+    "path": "benchmark\\sad_piano.mp3",
+    "duration_s": 166.4,
+    "duration_min": 2.8,
+    "emotion": {
+      "Valence": -0.065,
+      "Arousal": 0.012,
+      "Tension": 0.34,
+      "Complexity": 0.38
+    },
+    "style": "Classical/Piano",
+    "moods": [
+      {
+        "tag": "action",
+        "prob": 0.724
+      },
+      {
+        "tag": "adventure",
+        "prob": 0.694
+      },
+      {
+        "tag": "advertising",
+        "prob": 0.582
+      },
+      {
+        "tag": "ambiental",
+        "prob": 0.579
+      },
+      {
+        "tag": "background",
+        "prob": 0.548
+      }
+    ],
+    "instruments": [
+      {
+        "name": "piano",
+        "prob": 0.59
+      },
+      {
+        "name": "mallet_percussion",
+        "prob": 0.107
+      }
+    ],
+    "transitions": [
+      {
+        "time_min": 0.1,
+        "event": "style change: relaxing -> sad",
+        "emotion": {
+          "V": 0.02,
+          "A": -0.1,
+          "T": 0.27,
+          "C": 0.5
+        }
+      },
+      {
+        "time_min": 0.2,
+        "event": "style change: sad -> romantic",
+        "emotion": {
+          "V": -0.03,
+          "A": -0.12,
+          "T": -0.11,
+          "C": 0.15
+        }
+      },
+      {
+        "time_min": 0.4,
+        "event": "style change: romantic -> relaxing",
+        "emotion": {
+          "V": -0.13,
+          "A": 0.08,
+          "T": 0.3,
+          "C": -0.08
+        }
+      },
+      {
+        "time_min": 0.5,
+        "event": "style change: relaxing -> inspiring",
+        "emotion": {
+          "V": -0.26,
+          "A": 0.04,
+          "T": 0.31,
+          "C": 0.19
+        }
+      },
+      {
+        "time_min": 0.8,
+        "event": "style change: inspiring -> hopeful",
+        "emotion": {
+          "V": -0.14,
+          "A": -0.03,
+          "T": 0.01,
+          "C": 0.34
+        }
+      },
+      {
+        "time_min": 0.9,
+        "event": "style change: hopeful -> soft",
+        "emotion": {
+          "V": 0.09,
+          "A": -0.0,
+          "T": 0.31,
+          "C": 0.01
+        }
+      },
+      {
+        "time_min": 1.2,
+        "event": "style change: soft -> inspiring",
+        "emotion": {
+          "V": -0.16,
+          "A": 0.08,
+          "T": 0.3,
+          "C": 0.34
+        }
+      },
+      {
+        "time_min": 1.4,
+        "event": "style change: inspiring -> melancholic",
+        "emotion": {
+          "V": -0.09,
+          "A": 0.09,
+          "T": -0.01,
+          "C": 0.77
+        }
+      },
+      {
+        "time_min": 1.5,
+        "event": "style change: melancholic -> soft",
+        "emotion": {
+          "V": -0.13,
+          "A": -0.0,
+          "T": 0.88,
+          "C": 0.3
+        }
+      },
+      {
+        "time_min": 1.6,
+        "event": "style change: soft -> christmas",
+        "emotion": {
+          "V": 0.04,
+          "A": -0.01,
+          "T": 0.93,
+          "C": 0.42
+        }
+      },
+      {
+        "time_min": 1.8,
+        "event": "style change: christmas -> melodic",
+        "emotion": {
+          "V": 0.09,
+          "A": 0.1,
+          "T": 0.44,
+          "C": 0.46
+        }
+      },
+      {
+        "time_min": 2.0,
+        "event": "style change: melodic -> sad",
+        "emotion": {
+          "V": 0.09,
+          "A": 0.07,
+          "T": 0.25,
+          "C": 0.54
+        }
+      },
+      {
+        "time_min": 2.1,
+        "event": "style change: sad -> christmas",
+        "emotion": {
+          "V": -0.17,
+          "A": 0.03,
+          "T": 0.53,
+          "C": 0.35
+        }
+      },
+      {
+        "time_min": 2.2,
+        "event": "style change: christmas -> meditative",
+        "emotion": {
+          "V": -0.11,
+          "A": -0.02,
+          "T": -0.1,
+          "C": 0.93
+        }
+      },
+      {
+        "time_min": 2.5,
+        "event": "style change: meditative -> relaxing",
+        "emotion": {
+          "V": -0.09,
+          "A": -0.02,
+          "T": 0.82,
+          "C": 0.54
+        }
+      }
+    ]
+  },
+  {
+    "file": "tense_suspense",
+    "path": "benchmark\\tense_suspense.mp3",
+    "duration_s": 1565.5,
+    "duration_min": 26.1,
+    "emotion": {
+      "Valence": 0.201,
+      "Arousal": 0.344,
+      "Tension": -0.024,
+      "Complexity": 0.983
+    },
+    "style": "Epic/Cinematic",
+    "moods": [
+      {
+        "tag": "action",
+        "prob": 0.481
+      },
+      {
+        "tag": "adventure",
+        "prob": 0.428
+      },
+      {
+        "tag": "advertising",
+        "prob": 0.396
+      },
+      {
+        "tag": "ambiental",
+        "prob": 0.388
+      },
+      {
+        "tag": "background",
+        "prob": 0.322
+      }
+    ],
+    "instruments": [
+      {
+        "name": "violin",
+        "prob": 0.121
+      },
+      {
+        "name": "synthesizer",
+        "prob": 0.111
+      }
+    ],
+    "transitions": [
+      {
+        "time_min": 0.1,
+        "event": "style change: happy -> adventure",
+        "emotion": {
+          "V": 0.17,
+          "A": 0.4,
+          "T": 0.29,
+          "C": 0.93
+        }
+      },
+      {
+        "time_min": 0.2,
+        "event": "style change: adventure -> film",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.4,
+          "T": 0.1,
+          "C": 1.45
+        }
+      },
+      {
+        "time_min": 0.4,
+        "event": "style change: film -> upbeat",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.58,
+          "T": 0.37,
+          "C": 1.29
+        }
+      },
+      {
+        "time_min": 0.5,
+        "event": "style change: upbeat -> sport",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.55,
+          "T": 0.11,
+          "C": 1.97
+        }
+      },
+      {
+        "time_min": 0.8,
+        "event": "style change: sport -> advertising",
+        "emotion": {
+          "V": 0.19,
+          "A": 0.15,
+          "T": 0.07,
+          "C": -0.35
+        }
+      },
+      {
+        "time_min": 0.9,
+        "event": "style change: advertising -> drama",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.18,
+          "T": 0.06,
+          "C": -0.06
+        }
+      },
+      {
+        "time_min": 1.0,
+        "event": "style change: drama -> upbeat",
+        "emotion": {
+          "V": 0.09,
+          "A": 0.44,
+          "T": 0.58,
+          "C": 1.4
+        }
+      },
+      {
+        "time_min": 1.1,
+        "event": "style change: upbeat -> love",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.42,
+          "T": 0.04,
+          "C": 1.22
+        }
+      },
+      {
+        "time_min": 1.2,
+        "event": "style change: love -> epic",
+        "emotion": {
+          "V": 0.35,
+          "A": 0.47,
+          "T": 0.52,
+          "C": 1.0
+        }
+      },
+      {
+        "time_min": 1.5,
+        "event": "style change: epic -> adventure",
+        "emotion": {
+          "V": 0.44,
+          "A": 0.52,
+          "T": -0.06,
+          "C": 0.23
+        }
+      },
+      {
+        "time_min": 1.8,
+        "event": "style change: adventure -> film",
+        "emotion": {
+          "V": 0.45,
+          "A": 0.37,
+          "T": 0.01,
+          "C": 0.3
+        }
+      },
+      {
+        "time_min": 1.9,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.45,
+          "A": 0.46,
+          "T": -0.22,
+          "C": 0.49
+        }
+      },
+      {
+        "time_min": 2.0,
+        "event": "style change: epic -> fun",
+        "emotion": {
+          "V": 0.22,
+          "A": 0.47,
+          "T": 0.29,
+          "C": 2.31
+        }
+      },
+      {
+        "time_min": 2.1,
+        "event": "style change: fun -> epic",
+        "emotion": {
+          "V": 0.23,
+          "A": 0.44,
+          "T": 0.0,
+          "C": 2.27
+        }
+      },
+      {
+        "time_min": 2.2,
+        "event": "style change: epic -> sport",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.35,
+          "T": -0.36,
+          "C": 2.14
+        }
+      },
+      {
+        "time_min": 2.4,
+        "event": "style change: sport -> dark",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.11,
+          "T": -0.9,
+          "C": 0.82
+        }
+      },
+      {
+        "time_min": 2.6,
+        "event": "style change: dark -> epic",
+        "emotion": {
+          "V": 0.26,
+          "A": 0.34,
+          "T": -0.62,
+          "C": 1.57
+        }
+      },
+      {
+        "time_min": 2.9,
+        "event": "style change: epic -> film",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.38,
+          "T": 0.1,
+          "C": 1.62
+        }
+      },
+      {
+        "time_min": 3.0,
+        "event": "style change: film -> fun",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.45,
+          "T": 0.07,
+          "C": 1.66
+        }
+      },
+      {
+        "time_min": 3.1,
+        "event": "style change: fun -> groovy",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.54,
+          "T": 0.33,
+          "C": 2.11
+        }
+      },
+      {
+        "time_min": 3.2,
+        "event": "style change: groovy -> sport",
+        "emotion": {
+          "V": 0.44,
+          "A": 0.52,
+          "T": 0.05,
+          "C": 2.06
+        }
+      },
+      {
+        "time_min": 3.4,
+        "event": "style change: sport -> fun",
+        "emotion": {
+          "V": 0.46,
+          "A": 0.6,
+          "T": 0.03,
+          "C": 1.6
+        }
+      },
+      {
+        "time_min": 3.5,
+        "event": "style change: fun -> positive",
+        "emotion": {
+          "V": 0.45,
+          "A": 0.6,
+          "T": 0.45,
+          "C": 1.54
+        }
+      },
+      {
+        "time_min": 3.8,
+        "event": "style change: positive -> game",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.56,
+          "T": 0.29,
+          "C": 1.78
+        }
+      },
+      {
+        "time_min": 3.9,
+        "event": "style change: game -> energetic",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.58,
+          "T": -0.08,
+          "C": 1.64
+        }
+      },
+      {
+        "time_min": 4.0,
+        "event": "style change: energetic -> action",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.54,
+          "T": 0.11,
+          "C": 2.18
+        }
+      },
+      {
+        "time_min": 4.1,
+        "event": "style change: action -> sport",
+        "emotion": {
+          "V": 0.43,
+          "A": 0.54,
+          "T": 0.53,
+          "C": 1.74
+        }
+      },
+      {
+        "time_min": 4.2,
+        "event": "style change: sport -> positive",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.64,
+          "T": 0.77,
+          "C": 1.21
+        }
+      },
+      {
+        "time_min": 4.4,
+        "event": "style change: positive -> corporate",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.56,
+          "T": 0.78,
+          "C": 1.12
+        }
+      },
+      {
+        "time_min": 4.5,
+        "event": "style change: corporate -> uplifting",
+        "emotion": {
+          "V": 0.4,
+          "A": 0.51,
+          "T": 1.33,
+          "C": 1.07
+        }
+      },
+      {
+        "time_min": 4.6,
+        "event": "style change: uplifting -> game",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.53,
+          "T": 0.21,
+          "C": 1.94
+        }
+      },
+      {
+        "time_min": 4.8,
+        "event": "style change: game -> romantic",
+        "emotion": {
+          "V": 0.29,
+          "A": 0.42,
+          "T": -0.29,
+          "C": 1.8
+        }
+      },
+      {
+        "time_min": 4.9,
+        "event": "style change: romantic -> energetic",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.31,
+          "T": -0.31,
+          "C": 2.41
+        }
+      },
+      {
+        "time_min": 5.0,
+        "event": "style change: energetic -> powerful",
+        "emotion": {
+          "V": 0.18,
+          "A": 0.39,
+          "T": -0.43,
+          "C": 3.13
+        }
+      },
+      {
+        "time_min": 5.1,
+        "event": "style change: powerful -> ambiental",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.44,
+          "T": -0.39,
+          "C": 2.91
+        }
+      },
+      {
+        "time_min": 5.2,
+        "event": "style change: ambiental -> epic",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.4,
+          "T": -0.33,
+          "C": 0.61
+        }
+      },
+      {
+        "time_min": 5.9,
+        "event": "style change: epic -> film",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.49,
+          "T": -0.54,
+          "C": 1.14
+        }
+      },
+      {
+        "time_min": 6.0,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.19,
+          "A": 0.61,
+          "T": -0.29,
+          "C": 1.78
+        }
+      },
+      {
+        "time_min": 6.1,
+        "event": "style change: epic -> action",
+        "emotion": {
+          "V": 0.21,
+          "A": 0.47,
+          "T": 0.31,
+          "C": 3.43
+        }
+      },
+      {
+        "time_min": 6.2,
+        "event": "style change: action -> heavy",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.47,
+          "T": -0.2,
+          "C": 2.79
+        }
+      },
+      {
+        "time_min": 6.4,
+        "event": "style change: heavy -> action",
+        "emotion": {
+          "V": 0.32,
+          "A": 0.52,
+          "T": 0.12,
+          "C": 2.48
+        }
+      },
+      {
+        "time_min": 6.5,
+        "event": "style change: action -> background",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.48,
+          "T": 0.43,
+          "C": 3.13
+        }
+      },
+      {
+        "time_min": 6.6,
+        "event": "style change: background -> drama",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.55,
+          "T": 0.0,
+          "C": 0.91
+        }
+      },
+      {
+        "time_min": 6.8,
+        "event": "style change: drama -> cool",
+        "emotion": {
+          "V": 0.29,
+          "A": 0.53,
+          "T": -0.27,
+          "C": 1.14
+        }
+      },
+      {
+        "time_min": 6.9,
+        "event": "style change: cool -> powerful",
+        "emotion": {
+          "V": 0.19,
+          "A": 0.6,
+          "T": 0.29,
+          "C": 1.78
+        }
+      },
+      {
+        "time_min": 7.1,
+        "event": "style change: powerful -> deep",
+        "emotion": {
+          "V": 0.43,
+          "A": 0.54,
+          "T": -0.53,
+          "C": 0.87
+        }
+      },
+      {
+        "time_min": 7.2,
+        "event": "style change: deep -> cool",
+        "emotion": {
+          "V": 0.41,
+          "A": 0.46,
+          "T": -0.43,
+          "C": 0.87
+        }
+      },
+      {
+        "time_min": 7.4,
+        "event": "style change: cool -> energetic",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.56,
+          "T": 0.36,
+          "C": 1.94
+        }
+      },
+      {
+        "time_min": 7.5,
+        "event": "style change: energetic -> action",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.47,
+          "T": -0.16,
+          "C": 2.55
+        }
+      },
+      {
+        "time_min": 7.6,
+        "event": "style change: action -> romantic",
+        "emotion": {
+          "V": 0.03,
+          "A": 0.26,
+          "T": -0.51,
+          "C": 0.97
+        }
+      },
+      {
+        "time_min": 7.8,
+        "event": "style change: romantic -> film",
+        "emotion": {
+          "V": 0.2,
+          "A": 0.37,
+          "T": 0.01,
+          "C": 0.85
+        }
+      },
+      {
+        "time_min": 7.9,
+        "event": "style change: film -> slow",
+        "emotion": {
+          "V": 0.19,
+          "A": 0.29,
+          "T": 0.59,
+          "C": 0.73
+        }
+      },
+      {
+        "time_min": 8.0,
+        "event": "style change: slow -> epic",
+        "emotion": {
+          "V": 0.39,
+          "A": 0.46,
+          "T": 0.58,
+          "C": 0.91
+        }
+      },
+      {
+        "time_min": 8.6,
+        "event": "style change: epic -> energetic",
+        "emotion": {
+          "V": 0.43,
+          "A": 0.54,
+          "T": -0.09,
+          "C": 1.94
+        }
+      },
+      {
+        "time_min": 8.8,
+        "event": "style change: energetic -> deep",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.42,
+          "T": -0.27,
+          "C": 1.79
+        }
+      },
+      {
+        "time_min": 8.9,
+        "event": "style change: deep -> energetic",
+        "emotion": {
+          "V": 0.25,
+          "A": 0.41,
+          "T": 0.27,
+          "C": 0.65
+        }
+      },
+      {
+        "time_min": 9.1,
+        "event": "style change: energetic -> epic",
+        "emotion": {
+          "V": 0.53,
+          "A": 0.54,
+          "T": -0.34,
+          "C": 0.58
+        }
+      },
+      {
+        "time_min": 9.5,
+        "event": "style change: epic -> energetic",
+        "emotion": {
+          "V": 0.45,
+          "A": 0.55,
+          "T": 0.37,
+          "C": 2.52
+        }
+      },
+      {
+        "time_min": 9.6,
+        "event": "style change: energetic -> epic",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.41,
+          "T": -0.38,
+          "C": 2.15
+        }
+      },
+      {
+        "time_min": 9.8,
+        "event": "style change: epic -> sad",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.07,
+          "T": -0.31,
+          "C": 1.81
+        }
+      },
+      {
+        "time_min": 9.9,
+        "event": "style change: sad -> film",
+        "emotion": {
+          "V": 0.03,
+          "A": 0.05,
+          "T": 0.19,
+          "C": 1.22
+        }
+      },
+      {
+        "time_min": 10.0,
+        "event": "style change: film -> slow",
+        "emotion": {
+          "V": 0.07,
+          "A": 0.11,
+          "T": 0.19,
+          "C": 0.17
+        }
+      },
+      {
+        "time_min": 10.1,
+        "event": "style change: slow -> soundscape",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.02,
+          "T": 0.38,
+          "C": 0.13
+        }
+      },
+      {
+        "time_min": 10.2,
+        "event": "style change: soundscape -> slow",
+        "emotion": {
+          "V": 0.12,
+          "A": -0.02,
+          "T": 0.24,
+          "C": -0.43
+        }
+      },
+      {
+        "time_min": 10.4,
+        "event": "style change: slow -> dark",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.21,
+          "T": 0.2,
+          "C": -0.28
+        }
+      },
+      {
+        "time_min": 10.5,
+        "event": "style change: dark -> sad",
+        "emotion": {
+          "V": -0.1,
+          "A": -0.14,
+          "T": 0.08,
+          "C": -0.49
+        }
+      },
+      {
+        "time_min": 10.8,
+        "event": "style change: sad -> love",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.1,
+          "T": 0.05,
+          "C": 0.13
+        }
+      },
+      {
+        "time_min": 10.9,
+        "event": "style change: love -> slow",
+        "emotion": {
+          "V": 0.04,
+          "A": 0.01,
+          "T": -0.1,
+          "C": 0.25
+        }
+      },
+      {
+        "time_min": 11.0,
+        "event": "style change: slow -> melancholic",
+        "emotion": {
+          "V": 0.03,
+          "A": -0.02,
+          "T": -0.49,
+          "C": -0.14
+        }
+      },
+      {
+        "time_min": 11.1,
+        "event": "style change: melancholic -> dark",
+        "emotion": {
+          "V": 0.01,
+          "A": -0.04,
+          "T": -0.32,
+          "C": 0.02
+        }
+      },
+      {
+        "time_min": 11.2,
+        "event": "style change: dark -> ambiental",
+        "emotion": {
+          "V": -0.07,
+          "A": -0.17,
+          "T": -0.04,
+          "C": 0.34
+        }
+      },
+      {
+        "time_min": 11.4,
+        "event": "style change: ambiental -> slow",
+        "emotion": {
+          "V": -0.0,
+          "A": -0.07,
+          "T": -0.09,
+          "C": -0.03
+        }
+      },
+      {
+        "time_min": 11.5,
+        "event": "style change: slow -> love",
+        "emotion": {
+          "V": -0.11,
+          "A": -0.18,
+          "T": -0.22,
+          "C": -0.15
+        }
+      },
+      {
+        "time_min": 11.6,
+        "event": "style change: love -> melancholic",
+        "emotion": {
+          "V": -0.26,
+          "A": -0.22,
+          "T": -0.31,
+          "C": -0.01
+        }
+      },
+      {
+        "time_min": 11.8,
+        "event": "style change: melancholic -> adventure",
+        "emotion": {
+          "V": -0.1,
+          "A": -0.05,
+          "T": -0.1,
+          "C": -0.08
+        }
+      },
+      {
+        "time_min": 11.9,
+        "event": "style change: adventure -> christmas",
+        "emotion": {
+          "V": -0.13,
+          "A": -0.12,
+          "T": 0.16,
+          "C": -0.18
+        }
+      },
+      {
+        "time_min": 12.0,
+        "event": "style change: christmas -> children",
+        "emotion": {
+          "V": -0.21,
+          "A": -0.03,
+          "T": -0.46,
+          "C": 0.22
+        }
+      },
+      {
+        "time_min": 12.1,
+        "event": "style change: children -> film",
+        "emotion": {
+          "V": -0.1,
+          "A": 0.19,
+          "T": 0.42,
+          "C": 0.93
+        }
+      },
+      {
+        "time_min": 12.4,
+        "event": "style change: film -> melodic",
+        "emotion": {
+          "V": 0.04,
+          "A": 0.26,
+          "T": -0.66,
+          "C": 1.28
+        }
+      },
+      {
+        "time_min": 12.5,
+        "event": "style change: melodic -> documentary",
+        "emotion": {
+          "V": -0.08,
+          "A": -0.02,
+          "T": -0.51,
+          "C": 0.95
+        }
+      },
+      {
+        "time_min": 12.6,
+        "event": "style change: documentary -> dark",
+        "emotion": {
+          "V": -0.08,
+          "A": -0.05,
+          "T": -0.26,
+          "C": 0.23
+        }
+      },
+      {
+        "time_min": 12.8,
+        "event": "style change: dark -> sad",
+        "emotion": {
+          "V": -0.06,
+          "A": -0.12,
+          "T": -0.46,
+          "C": 0.55
+        }
+      },
+      {
+        "time_min": 12.9,
+        "event": "style change: sad -> film",
+        "emotion": {
+          "V": -0.17,
+          "A": 0.1,
+          "T": -0.6,
+          "C": 0.43
+        }
+      },
+      {
+        "time_min": 13.0,
+        "event": "style change: film -> sad",
+        "emotion": {
+          "V": -0.06,
+          "A": -0.01,
+          "T": -0.36,
+          "C": 0.58
+        }
+      },
+      {
+        "time_min": 13.1,
+        "event": "style change: sad -> horror",
+        "emotion": {
+          "V": -0.12,
+          "A": -0.06,
+          "T": -0.33,
+          "C": 0.54
+        }
+      },
+      {
+        "time_min": 13.2,
+        "event": "style change: horror -> slow",
+        "emotion": {
+          "V": -0.1,
+          "A": -0.05,
+          "T": -0.44,
+          "C": 0.73
+        }
+      },
+      {
+        "time_min": 13.4,
+        "event": "style change: slow -> film",
+        "emotion": {
+          "V": 0.18,
+          "A": 0.13,
+          "T": -0.37,
+          "C": 1.16
+        }
+      },
+      {
+        "time_min": 13.5,
+        "event": "style change: film -> soundscape",
+        "emotion": {
+          "V": -0.15,
+          "A": -0.01,
+          "T": -0.55,
+          "C": 0.01
+        }
+      },
+      {
+        "time_min": 13.6,
+        "event": "style change: soundscape -> melancholic",
+        "emotion": {
+          "V": -0.1,
+          "A": -0.15,
+          "T": -0.58,
+          "C": 0.39
+        }
+      },
+      {
+        "time_min": 13.8,
+        "event": "style change: melancholic -> slow",
+        "emotion": {
+          "V": -0.14,
+          "A": -0.09,
+          "T": -0.47,
+          "C": 0.56
+        }
+      },
+      {
+        "time_min": 13.9,
+        "event": "style change: slow -> ambiental",
+        "emotion": {
+          "V": -0.06,
+          "A": 0.19,
+          "T": -0.37,
+          "C": 0.27
+        }
+      },
+      {
+        "time_min": 14.0,
+        "event": "style change: ambiental -> soundscape",
+        "emotion": {
+          "V": -0.24,
+          "A": -0.03,
+          "T": -0.49,
+          "C": 0.42
+        }
+      },
+      {
+        "time_min": 14.1,
+        "event": "style change: soundscape -> adventure",
+        "emotion": {
+          "V": -0.06,
+          "A": 0.05,
+          "T": -0.33,
+          "C": 0.24
+        }
+      },
+      {
+        "time_min": 14.2,
+        "event": "style change: adventure -> slow",
+        "emotion": {
+          "V": 0.0,
+          "A": 0.05,
+          "T": -0.35,
+          "C": 0.25
+        }
+      },
+      {
+        "time_min": 14.4,
+        "event": "style change: slow -> film",
+        "emotion": {
+          "V": 0.24,
+          "A": 0.34,
+          "T": -0.33,
+          "C": 0.94
+        }
+      },
+      {
+        "time_min": 14.6,
+        "event": "style change: film -> meditative",
+        "emotion": {
+          "V": 0.19,
+          "A": 0.26,
+          "T": 0.01,
+          "C": 1.04
+        }
+      },
+      {
+        "time_min": 14.8,
+        "event": "style change: meditative -> sport",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.31,
+          "T": -0.01,
+          "C": 0.43
+        }
+      },
+      {
+        "time_min": 14.9,
+        "event": "style change: sport -> commercial",
+        "emotion": {
+          "V": 0.4,
+          "A": 0.41,
+          "T": 0.15,
+          "C": 0.51
+        }
+      },
+      {
+        "time_min": 15.0,
+        "event": "style change: commercial -> advertising",
+        "emotion": {
+          "V": 0.43,
+          "A": 0.4,
+          "T": 0.42,
+          "C": 0.63
+        }
+      },
+      {
+        "time_min": 15.1,
+        "event": "style change: advertising -> emotional",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.35,
+          "T": 0.27,
+          "C": 0.56
+        }
+      },
+      {
+        "time_min": 15.2,
+        "event": "style change: emotional -> fun",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.48,
+          "T": 0.58,
+          "C": 0.63
+        }
+      },
+      {
+        "time_min": 15.4,
+        "event": "style change: fun -> emotional",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.33,
+          "T": 0.42,
+          "C": 0.91
+        }
+      },
+      {
+        "time_min": 15.5,
+        "event": "style change: emotional -> adventure",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.5,
+          "T": -0.01,
+          "C": 0.99
+        }
+      },
+      {
+        "time_min": 15.6,
+        "event": "style change: adventure -> advertising",
+        "emotion": {
+          "V": 0.44,
+          "A": 0.51,
+          "T": 0.28,
+          "C": 1.24
+        }
+      },
+      {
+        "time_min": 15.8,
+        "event": "style change: advertising -> energetic",
+        "emotion": {
+          "V": 0.32,
+          "A": 0.46,
+          "T": 0.91,
+          "C": 0.8
+        }
+      },
+      {
+        "time_min": 15.9,
+        "event": "style change: energetic -> cool",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.41,
+          "T": 0.81,
+          "C": 0.48
+        }
+      },
+      {
+        "time_min": 16.0,
+        "event": "style change: cool -> positive",
+        "emotion": {
+          "V": 0.37,
+          "A": 0.42,
+          "T": 0.88,
+          "C": 1.0
+        }
+      },
+      {
+        "time_min": 16.1,
+        "event": "style change: positive -> groovy",
+        "emotion": {
+          "V": 0.31,
+          "A": 0.57,
+          "T": 0.74,
+          "C": 1.33
+        }
+      },
+      {
+        "time_min": 16.2,
+        "event": "style change: groovy -> positive",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.5,
+          "T": 0.51,
+          "C": 1.37
+        }
+      },
+      {
+        "time_min": 16.4,
+        "event": "style change: positive -> game",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.53,
+          "T": 0.62,
+          "C": 1.79
+        }
+      },
+      {
+        "time_min": 16.5,
+        "event": "style change: game -> positive",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.53,
+          "T": 0.86,
+          "C": 1.59
+        }
+      },
+      {
+        "time_min": 16.9,
+        "event": "style change: positive -> sport",
+        "emotion": {
+          "V": 0.29,
+          "A": 0.54,
+          "T": 1.33,
+          "C": 1.46
+        }
+      },
+      {
+        "time_min": 17.0,
+        "event": "style change: sport -> energetic",
+        "emotion": {
+          "V": 0.4,
+          "A": 0.5,
+          "T": 0.59,
+          "C": 0.9
+        }
+      },
+      {
+        "time_min": 17.1,
+        "event": "style change: energetic -> happy",
+        "emotion": {
+          "V": 0.37,
+          "A": 0.4,
+          "T": 0.48,
+          "C": 0.75
+        }
+      },
+      {
+        "time_min": 17.2,
+        "event": "style change: happy -> upbeat",
+        "emotion": {
+          "V": -0.05,
+          "A": 0.07,
+          "T": -0.1,
+          "C": 1.09
+        }
+      },
+      {
+        "time_min": 17.5,
+        "event": "style change: upbeat -> fun",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.39,
+          "T": 0.09,
+          "C": 0.25
+        }
+      },
+      {
+        "time_min": 17.6,
+        "event": "style change: fun -> slow",
+        "emotion": {
+          "V": 0.23,
+          "A": 0.28,
+          "T": -0.06,
+          "C": 0.33
+        }
+      },
+      {
+        "time_min": 17.8,
+        "event": "style change: slow -> happy",
+        "emotion": {
+          "V": 0.1,
+          "A": 0.39,
+          "T": 0.18,
+          "C": 0.42
+        }
+      },
+      {
+        "time_min": 17.9,
+        "event": "style change: happy -> movie",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.5,
+          "T": 0.14,
+          "C": 0.78
+        }
+      },
+      {
+        "time_min": 18.0,
+        "event": "style change: movie -> energetic",
+        "emotion": {
+          "V": 0.1,
+          "A": 0.46,
+          "T": 0.34,
+          "C": 0.9
+        }
+      },
+      {
+        "time_min": 18.1,
+        "event": "style change: energetic -> advertising",
+        "emotion": {
+          "V": 0.31,
+          "A": 0.55,
+          "T": 0.19,
+          "C": 0.29
+        }
+      },
+      {
+        "time_min": 18.2,
+        "event": "style change: advertising -> dark",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.38,
+          "T": -0.28,
+          "C": 1.4
+        }
+      },
+      {
+        "time_min": 18.4,
+        "event": "style change: dark -> melodic",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.47,
+          "T": 0.08,
+          "C": 1.7
+        }
+      },
+      {
+        "time_min": 18.5,
+        "event": "style change: melodic -> adventure",
+        "emotion": {
+          "V": 0.23,
+          "A": 0.51,
+          "T": -0.24,
+          "C": 0.76
+        }
+      },
+      {
+        "time_min": 18.8,
+        "event": "style change: adventure -> film",
+        "emotion": {
+          "V": 0.32,
+          "A": 0.43,
+          "T": 0.25,
+          "C": 0.5
+        }
+      },
+      {
+        "time_min": 18.9,
+        "event": "style change: film -> fun",
+        "emotion": {
+          "V": 0.39,
+          "A": 0.5,
+          "T": 0.2,
+          "C": 1.04
+        }
+      },
+      {
+        "time_min": 19.0,
+        "event": "style change: fun -> energetic",
+        "emotion": {
+          "V": 0.24,
+          "A": 0.43,
+          "T": 0.79,
+          "C": 1.24
+        }
+      },
+      {
+        "time_min": 19.1,
+        "event": "style change: energetic -> epic",
+        "emotion": {
+          "V": 0.21,
+          "A": 0.49,
+          "T": 0.6,
+          "C": 1.13
+        }
+      },
+      {
+        "time_min": 19.2,
+        "event": "style change: epic -> movie",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.34,
+          "T": -0.08,
+          "C": 1.25
+        }
+      },
+      {
+        "time_min": 19.4,
+        "event": "style change: movie -> dark",
+        "emotion": {
+          "V": 0.04,
+          "A": 0.38,
+          "T": -0.41,
+          "C": 2.01
+        }
+      },
+      {
+        "time_min": 19.5,
+        "event": "style change: dark -> film",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.24,
+          "T": -0.46,
+          "C": 0.73
+        }
+      },
+      {
+        "time_min": 19.8,
+        "event": "style change: film -> epic",
+        "emotion": {
+          "V": 0.25,
+          "A": 0.27,
+          "T": -0.47,
+          "C": 0.74
+        }
+      },
+      {
+        "time_min": 19.9,
+        "event": "style change: epic -> energetic",
+        "emotion": {
+          "V": 0.23,
+          "A": 0.31,
+          "T": -0.43,
+          "C": 0.61
+        }
+      },
+      {
+        "time_min": 20.0,
+        "event": "style change: energetic -> film",
+        "emotion": {
+          "V": 0.29,
+          "A": 0.32,
+          "T": -0.46,
+          "C": 0.72
+        }
+      },
+      {
+        "time_min": 20.6,
+        "event": "style change: film -> drama",
+        "emotion": {
+          "V": 0.47,
+          "A": 0.49,
+          "T": -0.33,
+          "C": 0.58
+        }
+      },
+      {
+        "time_min": 20.8,
+        "event": "style change: drama -> funny",
+        "emotion": {
+          "V": 0.33,
+          "A": 0.31,
+          "T": 0.01,
+          "C": 0.79
+        }
+      },
+      {
+        "time_min": 20.9,
+        "event": "style change: funny -> adventure",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.36,
+          "T": 0.02,
+          "C": 0.36
+        }
+      },
+      {
+        "time_min": 21.0,
+        "event": "style change: adventure -> children",
+        "emotion": {
+          "V": 0.29,
+          "A": 0.32,
+          "T": -0.23,
+          "C": 0.2
+        }
+      },
+      {
+        "time_min": 21.1,
+        "event": "style change: children -> film",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.43,
+          "T": -0.46,
+          "C": 0.58
+        }
+      },
+      {
+        "time_min": 21.2,
+        "event": "style change: film -> adventure",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.4,
+          "T": -0.38,
+          "C": 0.6
+        }
+      },
+      {
+        "time_min": 21.4,
+        "event": "style change: adventure -> film",
+        "emotion": {
+          "V": 0.26,
+          "A": 0.4,
+          "T": -0.37,
+          "C": 0.5
+        }
+      },
+      {
+        "time_min": 21.6,
+        "event": "style change: film -> emotional",
+        "emotion": {
+          "V": -0.2,
+          "A": 0.19,
+          "T": -0.11,
+          "C": 0.81
+        }
+      },
+      {
+        "time_min": 21.8,
+        "event": "style change: emotional -> soundscape",
+        "emotion": {
+          "V": 0.01,
+          "A": 0.24,
+          "T": -0.54,
+          "C": 1.0
+        }
+      },
+      {
+        "time_min": 21.9,
+        "event": "style change: soundscape -> ambiental",
+        "emotion": {
+          "V": 0.23,
+          "A": 0.46,
+          "T": -0.43,
+          "C": 0.53
+        }
+      },
+      {
+        "time_min": 22.2,
+        "event": "style change: ambiental -> epic",
+        "emotion": {
+          "V": 0.17,
+          "A": 0.17,
+          "T": -0.33,
+          "C": 0.02
+        }
+      },
+      {
+        "time_min": 22.5,
+        "event": "style change: epic -> drama",
+        "emotion": {
+          "V": 0.37,
+          "A": 0.36,
+          "T": -0.52,
+          "C": 0.07
+        }
+      },
+      {
+        "time_min": 22.6,
+        "event": "style change: drama -> ambiental",
+        "emotion": {
+          "V": 0.35,
+          "A": 0.37,
+          "T": -0.46,
+          "C": 0.21
+        }
+      },
+      {
+        "time_min": 22.9,
+        "event": "style change: ambiental -> soundscape",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.26,
+          "T": -0.7,
+          "C": 1.08
+        }
+      },
+      {
+        "time_min": 23.0,
+        "event": "style change: soundscape -> dark",
+        "emotion": {
+          "V": -0.22,
+          "A": 0.08,
+          "T": -0.44,
+          "C": 1.27
+        }
+      },
+      {
+        "time_min": 23.4,
+        "event": "style change: dark -> emotional",
+        "emotion": {
+          "V": 0.03,
+          "A": 0.48,
+          "T": -0.19,
+          "C": 1.24
+        }
+      },
+      {
+        "time_min": 23.5,
+        "event": "style change: emotional -> dark",
+        "emotion": {
+          "V": -0.02,
+          "A": 0.48,
+          "T": 0.07,
+          "C": 1.34
+        }
+      },
+      {
+        "time_min": 24.4,
+        "event": "style change: dark -> epic",
+        "emotion": {
+          "V": 0.22,
+          "A": 0.46,
+          "T": -0.5,
+          "C": 1.19
+        }
+      },
+      {
+        "time_min": 24.5,
+        "event": "style change: epic -> dark",
+        "emotion": {
+          "V": 0.08,
+          "A": 0.4,
+          "T": -0.4,
+          "C": 1.23
+        }
+      },
+      {
+        "time_min": 25.0,
+        "event": "style change: dark -> ambiental",
+        "emotion": {
+          "V": -0.08,
+          "A": 0.18,
+          "T": -0.41,
+          "C": 0.46
+        }
+      },
+      {
+        "time_min": 25.2,
+        "event": "style change: ambiental -> epic",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.51,
+          "T": -0.5,
+          "C": 1.43
+        }
+      },
+      {
+        "time_min": 25.4,
+        "event": "style change: epic -> love",
+        "emotion": {
+          "V": 0.21,
+          "A": 0.38,
+          "T": -0.39,
+          "C": 1.34
+        }
+      },
+      {
+        "time_min": 25.6,
+        "event": "style change: love -> epic",
+        "emotion": {
+          "V": -0.06,
+          "A": 0.24,
+          "T": -0.37,
+          "C": 1.1
+        }
+      },
+      {
+        "time_min": 25.8,
+        "event": "style change: epic -> dramatic",
+        "emotion": {
+          "V": 0.07,
+          "A": 0.35,
+          "T": -0.43,
+          "C": 1.25
+        }
+      }
+    ]
+  },
+  {
+    "file": "vivaldi_spring",
+    "path": "benchmark\\vivaldi_spring.mp3",
+    "duration_s": 695.9,
+    "duration_min": 11.6,
+    "emotion": {
+      "Valence": 0.219,
+      "Arousal": 0.466,
+      "Tension": 0.009,
+      "Complexity": 1.058
+    },
+    "style": "Classical/Baroque",
+    "moods": [
+      {
+        "tag": "action",
+        "prob": 0.455
+      },
+      {
+        "tag": "adventure",
+        "prob": 0.428
+      },
+      {
+        "tag": "advertising",
+        "prob": 0.344
+      },
+      {
+        "tag": "ambiental",
+        "prob": 0.339
+      },
+      {
+        "tag": "background",
+        "prob": 0.296
+      }
+    ],
+    "instruments": [
+      {
+        "name": "violin",
+        "prob": 0.292
+      },
+      {
+        "name": "guitar",
+        "prob": 0.152
+      },
+      {
+        "name": "trumpet",
+        "prob": 0.113
+      },
+      {
+        "name": "saxophone",
+        "prob": 0.102
+      }
+    ],
+    "transitions": [
+      {
+        "time_min": 0.1,
+        "event": "style change: melodic -> relaxing",
+        "emotion": {
+          "V": -0.1,
+          "A": 0.37,
+          "T": 0.14,
+          "C": 2.43
+        }
+      },
+      {
+        "time_min": 0.2,
+        "event": "style change: relaxing -> dream",
+        "emotion": {
+          "V": 0.01,
+          "A": 0.35,
+          "T": -0.1,
+          "C": 1.9
+        }
+      },
+      {
+        "time_min": 0.4,
+        "event": "style change: dream -> slow",
+        "emotion": {
+          "V": 0.25,
+          "A": 0.43,
+          "T": -0.86,
+          "C": 1.22
+        }
+      },
+      {
+        "time_min": 0.5,
+        "event": "style change: slow -> film",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.51,
+          "T": -0.45,
+          "C": 1.11
+        }
+      },
+      {
+        "time_min": 0.6,
+        "event": "style change: film -> christmas",
+        "emotion": {
+          "V": 0.4,
+          "A": 0.6,
+          "T": -0.43,
+          "C": 1.14
+        }
+      },
+      {
+        "time_min": 0.8,
+        "event": "style change: christmas -> ambiental",
+        "emotion": {
+          "V": 0.47,
+          "A": 0.62,
+          "T": -0.19,
+          "C": 1.02
+        }
+      },
+      {
+        "time_min": 0.9,
+        "event": "style change: ambiental -> film",
+        "emotion": {
+          "V": 0.45,
+          "A": 0.57,
+          "T": -0.3,
+          "C": 1.13
+        }
+      },
+      {
+        "time_min": 1.0,
+        "event": "style change: film -> children",
+        "emotion": {
+          "V": 0.44,
+          "A": 0.5,
+          "T": -0.22,
+          "C": 0.24
+        }
+      },
+      {
+        "time_min": 1.1,
+        "event": "style change: children -> love",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.38,
+          "T": 0.35,
+          "C": 0.24
+        }
+      },
+      {
+        "time_min": 1.2,
+        "event": "style change: love -> dark",
+        "emotion": {
+          "V": 0.05,
+          "A": 0.41,
+          "T": 0.19,
+          "C": 0.45
+        }
+      },
+      {
+        "time_min": 1.4,
+        "event": "style change: dark -> love",
+        "emotion": {
+          "V": 0.39,
+          "A": 0.39,
+          "T": -0.07,
+          "C": 0.46
+        }
+      },
+      {
+        "time_min": 1.5,
+        "event": "style change: love -> inspiring",
+        "emotion": {
+          "V": 0.43,
+          "A": 0.53,
+          "T": -0.32,
+          "C": 1.01
+        }
+      },
+      {
+        "time_min": 1.6,
+        "event": "style change: inspiring -> melodic",
+        "emotion": {
+          "V": 0.53,
+          "A": 0.56,
+          "T": -0.24,
+          "C": 1.37
+        }
+      },
+      {
+        "time_min": 1.8,
+        "event": "style change: melodic -> christmas",
+        "emotion": {
+          "V": 0.11,
+          "A": 0.56,
+          "T": 1.1,
+          "C": 1.19
+        }
+      },
+      {
+        "time_min": 1.9,
+        "event": "style change: christmas -> energetic",
+        "emotion": {
+          "V": 0.36,
+          "A": 0.52,
+          "T": 0.43,
+          "C": 1.23
+        }
+      },
+      {
+        "time_min": 2.0,
+        "event": "style change: energetic -> commercial",
+        "emotion": {
+          "V": 0.43,
+          "A": 0.6,
+          "T": 1.0,
+          "C": 1.23
+        }
+      },
+      {
+        "time_min": 2.1,
+        "event": "style change: commercial -> adventure",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.58,
+          "T": -0.43,
+          "C": 1.42
+        }
+      },
+      {
+        "time_min": 2.2,
+        "event": "style change: adventure -> ambiental",
+        "emotion": {
+          "V": 0.29,
+          "A": 0.56,
+          "T": -0.51,
+          "C": 1.41
+        }
+      },
+      {
+        "time_min": 2.4,
+        "event": "style change: ambiental -> christmas",
+        "emotion": {
+          "V": -0.01,
+          "A": 0.5,
+          "T": -0.14,
+          "C": 1.25
+        }
+      },
+      {
+        "time_min": 2.6,
+        "event": "style change: christmas -> love",
+        "emotion": {
+          "V": 0.39,
+          "A": 0.55,
+          "T": -0.18,
+          "C": 1.26
+        }
+      },
+      {
+        "time_min": 2.8,
+        "event": "style change: love -> epic",
+        "emotion": {
+          "V": 0.21,
+          "A": 0.5,
+          "T": 0.17,
+          "C": 0.86
+        }
+      },
+      {
+        "time_min": 2.9,
+        "event": "style change: epic -> ambiental",
+        "emotion": {
+          "V": 0.23,
+          "A": 0.49,
+          "T": 0.15,
+          "C": 1.23
+        }
+      },
+      {
+        "time_min": 3.0,
+        "event": "style change: ambiental -> christmas",
+        "emotion": {
+          "V": 0.17,
+          "A": 0.57,
+          "T": -0.15,
+          "C": 1.02
+        }
+      },
+      {
+        "time_min": 3.1,
+        "event": "style change: christmas -> epic",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.54,
+          "T": -0.32,
+          "C": 1.37
+        }
+      },
+      {
+        "time_min": 3.4,
+        "event": "style change: epic -> love",
+        "emotion": {
+          "V": 0.25,
+          "A": 0.53,
+          "T": -0.46,
+          "C": 1.35
+        }
+      },
+      {
+        "time_min": 3.5,
+        "event": "style change: love -> happy",
+        "emotion": {
+          "V": 0.51,
+          "A": 0.59,
+          "T": -0.23,
+          "C": 1.24
+        }
+      },
+      {
+        "time_min": 3.6,
+        "event": "style change: happy -> melodic",
+        "emotion": {
+          "V": 0.44,
+          "A": 0.55,
+          "T": 0.15,
+          "C": 1.79
+        }
+      },
+      {
+        "time_min": 3.8,
+        "event": "style change: melodic -> melancholic",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.42,
+          "T": -0.51,
+          "C": 1.37
+        }
+      },
+      {
+        "time_min": 3.9,
+        "event": "style change: melancholic -> melodic",
+        "emotion": {
+          "V": 0.39,
+          "A": 0.48,
+          "T": -0.07,
+          "C": 1.21
+        }
+      },
+      {
+        "time_min": 4.0,
+        "event": "style change: melodic -> dark",
+        "emotion": {
+          "V": 0.17,
+          "A": 0.46,
+          "T": 0.39,
+          "C": 0.99
+        }
+      },
+      {
+        "time_min": 4.4,
+        "event": "style change: dark -> ambiental",
+        "emotion": {
+          "V": 0.43,
+          "A": 0.51,
+          "T": -0.19,
+          "C": 1.1
+        }
+      },
+      {
+        "time_min": 4.6,
+        "event": "style change: ambiental -> inspiring",
+        "emotion": {
+          "V": 0.31,
+          "A": 0.49,
+          "T": -0.08,
+          "C": 0.93
+        }
+      },
+      {
+        "time_min": 4.8,
+        "event": "style change: inspiring -> dark",
+        "emotion": {
+          "V": 0.04,
+          "A": 0.37,
+          "T": 0.06,
+          "C": 1.0
+        }
+      },
+      {
+        "time_min": 5.0,
+        "event": "style change: dark -> powerful",
+        "emotion": {
+          "V": 0.02,
+          "A": 0.31,
+          "T": -0.25,
+          "C": 0.89
+        }
+      },
+      {
+        "time_min": 5.1,
+        "event": "style change: powerful -> sad",
+        "emotion": {
+          "V": 0.1,
+          "A": 0.31,
+          "T": 0.12,
+          "C": 0.81
+        }
+      },
+      {
+        "time_min": 5.4,
+        "event": "style change: sad -> love",
+        "emotion": {
+          "V": 0.27,
+          "A": 0.45,
+          "T": 0.23,
+          "C": 0.62
+        }
+      },
+      {
+        "time_min": 5.5,
+        "event": "style change: love -> ambiental",
+        "emotion": {
+          "V": 0.21,
+          "A": 0.51,
+          "T": -0.07,
+          "C": 0.74
+        }
+      },
+      {
+        "time_min": 5.8,
+        "event": "style change: ambiental -> movie",
+        "emotion": {
+          "V": 0.25,
+          "A": 0.27,
+          "T": -0.18,
+          "C": 0.05
+        }
+      },
+      {
+        "time_min": 5.9,
+        "event": "style change: movie -> epic",
+        "emotion": {
+          "V": 0.21,
+          "A": 0.33,
+          "T": -0.15,
+          "C": 0.45
+        }
+      },
+      {
+        "time_min": 6.0,
+        "event": "style change: epic -> inspiring",
+        "emotion": {
+          "V": 0.32,
+          "A": 0.43,
+          "T": -0.24,
+          "C": 0.64
+        }
+      },
+      {
+        "time_min": 6.1,
+        "event": "style change: inspiring -> ambiental",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.44,
+          "T": 0.09,
+          "C": 0.96
+        }
+      },
+      {
+        "time_min": 6.2,
+        "event": "style change: ambiental -> dark",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.43,
+          "T": 0.1,
+          "C": 0.8
+        }
+      },
+      {
+        "time_min": 6.4,
+        "event": "style change: dark -> movie",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.46,
+          "T": 0.09,
+          "C": 0.91
+        }
+      },
+      {
+        "time_min": 6.5,
+        "event": "style change: movie -> dark",
+        "emotion": {
+          "V": 0.29,
+          "A": 0.48,
+          "T": -0.05,
+          "C": 0.91
+        }
+      },
+      {
+        "time_min": 6.6,
+        "event": "style change: dark -> dream",
+        "emotion": {
+          "V": 0.43,
+          "A": 0.51,
+          "T": 0.09,
+          "C": 0.75
+        }
+      },
+      {
+        "time_min": 6.8,
+        "event": "style change: dream -> ambiental",
+        "emotion": {
+          "V": 0.3,
+          "A": 0.54,
+          "T": 0.16,
+          "C": 0.8
+        }
+      },
+      {
+        "time_min": 6.9,
+        "event": "style change: ambiental -> melancholic",
+        "emotion": {
+          "V": 0.2,
+          "A": 0.31,
+          "T": -0.98,
+          "C": 1.45
+        }
+      },
+      {
+        "time_min": 7.0,
+        "event": "style change: melancholic -> dark",
+        "emotion": {
+          "V": 0.23,
+          "A": 0.34,
+          "T": -0.3,
+          "C": 1.42
+        }
+      },
+      {
+        "time_min": 7.1,
+        "event": "style change: dark -> uplifting",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.48,
+          "T": -0.08,
+          "C": 1.26
+        }
+      },
+      {
+        "time_min": 7.2,
+        "event": "style change: uplifting -> ambiental",
+        "emotion": {
+          "V": 0.38,
+          "A": 0.55,
+          "T": -0.22,
+          "C": 0.92
+        }
+      },
+      {
+        "time_min": 7.6,
+        "event": "style change: ambiental -> inspiring",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.45,
+          "T": -0.18,
+          "C": 1.51
+        }
+      },
+      {
+        "time_min": 7.8,
+        "event": "style change: inspiring -> ambiental",
+        "emotion": {
+          "V": -0.09,
+          "A": 0.4,
+          "T": -0.38,
+          "C": 1.7
+        }
+      },
+      {
+        "time_min": 7.9,
+        "event": "style change: ambiental -> game",
+        "emotion": {
+          "V": 0.28,
+          "A": 0.55,
+          "T": -0.15,
+          "C": 1.22
+        }
+      },
+      {
+        "time_min": 8.0,
+        "event": "style change: game -> dark",
+        "emotion": {
+          "V": 0.14,
+          "A": 0.46,
+          "T": 0.54,
+          "C": 1.31
+        }
+      },
+      {
+        "time_min": 8.1,
+        "event": "style change: dark -> christmas",
+        "emotion": {
+          "V": 0.05,
+          "A": 0.51,
+          "T": 0.92,
+          "C": 1.02
+        }
+      },
+      {
+        "time_min": 8.6,
+        "event": "style change: christmas -> ambiental",
+        "emotion": {
+          "V": 0.5,
+          "A": 0.56,
+          "T": -0.43,
+          "C": 1.07
+        }
+      },
+      {
+        "time_min": 8.8,
+        "event": "style change: ambiental -> game",
+        "emotion": {
+          "V": 0.17,
+          "A": 0.46,
+          "T": -0.05,
+          "C": 1.14
+        }
+      },
+      {
+        "time_min": 8.9,
+        "event": "style change: game -> inspiring",
+        "emotion": {
+          "V": 0.21,
+          "A": 0.41,
+          "T": -0.36,
+          "C": 1.29
+        }
+      },
+      {
+        "time_min": 9.0,
+        "event": "style change: inspiring -> ambiental",
+        "emotion": {
+          "V": 0.12,
+          "A": 0.37,
+          "T": -0.28,
+          "C": 0.96
+        }
+      },
+      {
+        "time_min": 9.2,
+        "event": "style change: ambiental -> film",
+        "emotion": {
+          "V": 0.0,
+          "A": 0.25,
+          "T": -0.15,
+          "C": 1.19
+        }
+      },
+      {
+        "time_min": 9.4,
+        "event": "style change: film -> movie",
+        "emotion": {
+          "V": 0.16,
+          "A": 0.35,
+          "T": -0.04,
+          "C": 0.71
+        }
+      },
+      {
+        "time_min": 9.5,
+        "event": "style change: movie -> dream",
+        "emotion": {
+          "V": 0.34,
+          "A": 0.5,
+          "T": 0.6,
+          "C": 0.71
+        }
+      },
+      {
+        "time_min": 9.6,
+        "event": "style change: dream -> film",
+        "emotion": {
+          "V": 0.42,
+          "A": 0.41,
+          "T": -0.07,
+          "C": 0.85
+        }
+      },
+      {
+        "time_min": 9.8,
+        "event": "style change: film -> ambiental",
+        "emotion": {
+          "V": 0.37,
+          "A": 0.51,
+          "T": 0.16,
+          "C": 1.0
+        }
+      },
+      {
+        "time_min": 10.4,
+        "event": "style change: ambiental -> dark",
+        "emotion": {
+          "V": 0.01,
+          "A": 0.35,
+          "T": 0.04,
+          "C": 1.56
+        }
+      },
+      {
+        "time_min": 10.6,
+        "event": "style change: dark -> ambiental",
+        "emotion": {
+          "V": 0.13,
+          "A": 0.21,
+          "T": -0.47,
+          "C": 0.62
+        }
+      },
+      {
+        "time_min": 10.8,
+        "event": "style change: ambiental -> melodic",
+        "emotion": {
+          "V": 0.18,
+          "A": 0.26,
+          "T": -0.48,
+          "C": 0.7
+        }
+      },
+      {
+        "time_min": 10.9,
+        "event": "style change: melodic -> ambiental",
+        "emotion": {
+          "V": -0.01,
+          "A": 0.29,
+          "T": -0.28,
+          "C": 0.94
+        }
+      },
+      {
+        "time_min": 11.1,
+        "event": "style change: ambiental -> christmas",
+        "emotion": {
+          "V": 0.15,
+          "A": 0.66,
+          "T": 1.62,
+          "C": 1.08
+        }
+      }
+    ]
+  }
+]
