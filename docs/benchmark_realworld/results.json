@@ -1,0 +1,115 @@
+{
+  "rows": [
+    {
+      "file": "Carefree.mp3",
+      "duration_s": 33.8,
+      "valence_mean": 0.063,
+      "valence_std": 0.012,
+      "arousal_mean": 0.042,
+      "arousal_std": 0.024,
+      "emotion_infer_s": 0.65,
+      "emotion_rtf": 0.0192,
+      "bpm": 95.7,
+      "note_count": 104,
+      "note_density_per_s": 3.07,
+      "lane_counts": [
+        51,
+        28,
+        16,
+        9
+      ],
+      "chart_gen_s": 10.43,
+      "expected": {
+        "valence": "positive",
+        "arousal": "medium",
+        "note": "轻快民谣风"
+      },
+      "valence_dir_ok": true,
+      "arousal_dir_ok": null
+    },
+    {
+      "file": "Killers.mp3",
+      "duration_s": 23.4,
+      "valence_mean": 0.03,
+      "valence_std": 0.042,
+      "arousal_mean": 0.254,
+      "arousal_std": 0.08,
+      "emotion_infer_s": 0.35,
+      "emotion_rtf": 0.0151,
+      "bpm": 103.4,
+      "note_count": 45,
+      "note_density_per_s": 1.93,
+      "lane_counts": [
+        7,
+        16,
+        8,
+        14
+      ],
+      "chart_gen_s": 0.19,
+      "expected": {
+        "valence": "negative",
+        "arousal": "high",
+        "note": "黑暗/紧张"
+      },
+      "valence_dir_ok": false,
+      "arousal_dir_ok": true
+    },
+    {
+      "file": "Monkeys Spinning Monkeys.mp3",
+      "duration_s": 18.7,
+      "valence_mean": 0.048,
+      "valence_std": 0.0,
+      "arousal_mean": 0.034,
+      "arousal_std": 0.0,
+      "emotion_infer_s": 0.06,
+      "emotion_rtf": 0.0032,
+      "bpm": 143.6,
+      "note_count": 52,
+      "note_density_per_s": 2.78,
+      "lane_counts": [
+        38,
+        0,
+        2,
+        12
+      ],
+      "chart_gen_s": 0.2,
+      "expected": {
+        "valence": "positive",
+        "arousal": "high",
+        "note": "滑稽/俏皮"
+      },
+      "valence_dir_ok": false,
+      "arousal_dir_ok": false
+    },
+    {
+      "file": "Wallpaper.mp3",
+      "duration_s": 18.7,
+      "valence_mean": 0.073,
+      "valence_std": 0.0,
+      "arousal_mean": 0.096,
+      "arousal_std": 0.0,
+      "emotion_infer_s": 0.06,
+      "emotion_rtf": 0.0031,
+      "bpm": 92.3,
+      "note_count": 56,
+      "note_density_per_s": 3.0,
+      "lane_counts": [
+        16,
+        31,
+        4,
+        5
+      ],
+      "chart_gen_s": 0.15,
+      "expected": {
+        "valence": "neutral",
+        "arousal": "low",
+        "note": "环境背景音乐"
+      },
+      "valence_dir_ok": null,
+      "arousal_dir_ok": false
+    }
+  ],
+  "avg_rtf": 0.01015,
+  "n_correct": 2,
+  "n_total_checks": 6
+}

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Data caches & metadata (large, regeneratable)
+data/mtg_cache/
+data/fma_cache/
+data/fma_meta/
+data/openmic/
+data/irmas/
+data/musiccaps_cache/
+
+# Checkpoints (training outputs)
+checkpoints/*.pth
+
+# Test audio originals
+test_audio/*.mp3
+test_audio/*.wav
+test_audio/*.ogg
+
+# Generated analysis files
+test_audio/*_analysis.json
+test_audio/*_curve.png
+
+# Docs generated images
+docs/benchmark_realworld/*.png
+docs/benchmark_realworld/results.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Session history
+.claude/
