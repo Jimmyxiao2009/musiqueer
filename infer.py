@@ -126,20 +126,44 @@ def analyze(model, audio_path, segment_sec=15.0, stride_sec=7.5):
     
     # Check instrument probabilities for genre hints
     avg_instr_check = torch.sigmoid(out["instrument_logits"].cpu()).mean(dim=0)
-    violin_p = avg_instr_check[INSTRUMENTS.index("violin")].item()
-    cello_p = avg_instr_check[INSTRUMENTS.index("cello")].item()
-    piano_p = avg_instr_check[INSTRUMENTS.index("piano")].item()
-    voice_p = avg_instr_check[INSTRUMENTS.index("voice")].item()
+    instr_idx = lambda name: INSTRUMENTS.index(name)
+    violin_p = avg_instr_check[instr_idx("violin")].item()
+    cello_p = avg_instr_check[instr_idx("cello")].item()
+    piano_p = avg_instr_check[instr_idx("piano")].item()
+    voice_p = avg_instr_check[instr_idx("voice")].item()
+    drums_p = avg_instr_check[instr_idx("drums")].item()
+    cymbals_p = avg_instr_check[instr_idx("cymbals")].item()
+    bass_p = avg_instr_check[instr_idx("bass")].item()
+    sax_p = avg_instr_check[instr_idx("saxophone")].item()
+    trumpet_p = avg_instr_check[instr_idx("trumpet")].item()
+    guitar_p = avg_instr_check[instr_idx("guitar")].item()
+    synth_p = avg_instr_check[instr_idx("synthesizer")].item()
     
     # Determine primary genre
+    # Classical first (instrument-based)
     if (violin_p > 0.2 or cello_p > 0.15) and c_val > 0.5 and 0.2 < a < 0.6:
         synth = "Classical/Baroque"
     elif piano_p > 0.3 and a < 0.2:
         synth = "Classical/Piano"
     elif voice_p > 0.3 and has("epic"):
         synth = "Choral/Epic"
-    elif has("epic") and has("dramatic"):
-        synth = "Epic Orchestral"
+    # Jazz: saxophone or trumpet, moderate energy
+    elif (sax_p > 0.15 or trumpet_p > 0.15) and 0.1 < a < 0.6:
+        if drums_p > 0.3:
+            synth = "Jazz/Big Band"
+        else:
+            synth = "Jazz/Swing"
+    # Rock: drums + voice/guitar + high arousal + high tension
+    elif (drums_p > 0.15 or cymbals_p > 0.15) and (voice_p > 0.15 or guitar_p > 0.1) and a > 0.3 and t > 0.3:
+        synth = "Rock/Metal"
+    # Electronic/Dance or Jazz (with drums)
+    elif (drums_p > 0.2 or cymbals_p > 0.15) and a > 0.3:
+        if sax_p > 0.1 or trumpet_p > 0.1:
+            synth = "Jazz/Big Band"
+        elif synth_p > 0.1:
+            synth = "Electronic/Dance"
+        else:
+            synth = "Rhythmic/Upbeat"
     elif has("epic"):
         synth = "Epic/Cinematic"
     elif has("horror") or (has("dark") and has("heavy")):
